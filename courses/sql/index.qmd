@@ -1,0 +1,29 @@
+# About this course {.unnumbered}
+
+This is the SQL primer I wish someone could have forced me to work through when
+I was preparing to transition from academia to industry — from neutrino
+astrophysics to data science — in the pre-pandemic good old days of 2019.
+
+Academic training is a great start in many ways.  We learn to extract insight
+from data, communicate findings to diverse audiences via diverse formats, and
+manage projects on timescales ranging from days to years.  Many of us gain
+direct experience with industry standard Python libraries such as Python,
+NumPy, Pandas, Matplotlib, Seaborn, and Scikit-Learn.  To the extent that we
+miss out on some of these as academics, we are nevertheless well-situated to
+get caught up.
+
+In any case, at job application time – or especially job start time – it is
+always better to have at least a working understanding.  There are tasks that
+academics can hardly hope to catch up on ahead of industry work, but SQL
+doesn't necessarily have to be one of them.
+
+In this course, I hope to catch you up on how SQL is used for basic analysis
+and development in the real world: with curiousity and an iterative process.
+This course is not enough to make you an expert on any aspect of, or
+implementation of, SQL.  It's only supposed to be a good start.
+
+
+## Source code
+
+Source code can currently be found at
+[github.com/zgana/mdrsql](https://github.com/zgana/mdrsql).

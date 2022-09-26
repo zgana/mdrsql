@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: SQL For Scientists
+  author: Mike Richman
+  # date: "2022-09-10"
+  chapters:
+    - index.qmd
+      #- intro.qmd
+    - 01-Introduction.ipynb
+    - 02-Metadata-Queries.ipynb
+    - 03-Basic-Select.ipynb
+    - 04-Basic-Filtering-and-Aggregation.ipynb
+    - 99-Conclusion.ipynb
+    - references.qmd
+  sidebar:
+    background: light
+    search: true
+  toc-depth: 5
+
+
+bibliography: references.bib
+
+format:
+  html:
+    # theme: flatly
+    theme: cosmo
+    toc: true
+    toc-depth: 5
+
+
