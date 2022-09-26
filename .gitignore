@@ -1,4 +1,7 @@
 .ipynb_checkpoints/
+.quarto/
 .venv/
+
+_book/
 
 data/
