@@ -1,0 +1,16 @@
+
+numpy
+pandas
+
+dask
+dask-sql
+distributed
+
+pyarrow
+
+SQLAlchemy
+
+# TODO: why 1.5.5 broken?
+nest-asyncio==1.5.4
+
+# vim: ft=requirements
