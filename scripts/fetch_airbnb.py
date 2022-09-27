@@ -164,7 +164,6 @@ def read_reviews(spec, raw_dir):
             'date':'review_date',
         })
     )
-    print(out.dtypes)
     return out
 
 
@@ -187,18 +186,18 @@ def process_spec(spec, *, raw_dir, dataset_dir):
     )
     parquet_name = lambda name: os.path.join(dataset_dir, name, part_str)
 
-    # listings, hosts = read_listings(spec, spec_raw_dir)
-    # listings.pipe(write_one, npartitions=4, filename=parquet_name('listings'))
-    # hosts.pipe(write_one, npartitions=1, filename=parquet_name('hosts'))
-    # del listings, hosts
+    listings, hosts = read_listings(spec, spec_raw_dir)
+    listings.pipe(write_one, npartitions=4, filename=parquet_name('listings'))
+    hosts.pipe(write_one, npartitions=1, filename=parquet_name('hosts'))
+    del listings, hosts
 
     reviews = read_reviews(spec, spec_raw_dir)
     reviews.pipe(write_one, npartitions=4, filename=parquet_name('reviews'))
     del reviews
 
-    # calendar = read_calendar(spec, spec_raw_dir)
-    # calendar.pipe(write_one, npartitions=16, filename=parquet_name('calendar'))
-    # del calendar
+    calendar = read_calendar(spec, spec_raw_dir)
+    calendar.pipe(write_one, npartitions=16, filename=parquet_name('calendar'))
+    del calendar
 
 
 def main():
