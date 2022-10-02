@@ -12,6 +12,7 @@ book:
     - 02-Metadata-Queries.ipynb
     - 03-Basic-Select.ipynb
     - 04-Basic-Filtering-and-Aggregation.ipynb
+    - 05-Group-By.ipynb
     - 99-Conclusion.ipynb
     - references.qmd
   sidebar:
