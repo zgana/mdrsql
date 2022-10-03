@@ -31,5 +31,5 @@ format:
     toc: true
     toc-depth: 5
 
-  pdf:
-    documentclass: scrreport
+  # pdf:
+  #   documentclass: scrreport
