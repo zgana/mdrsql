@@ -13,6 +13,7 @@ book:
     - 03-Basic-Select.ipynb
     - 04-Basic-Filtering-and-Aggregation.ipynb
     - 05-Group-By.ipynb
+    - 06-Join.ipynb
     - 99-Conclusion.ipynb
     - references.qmd
   sidebar:
@@ -30,4 +31,5 @@ format:
     toc: true
     toc-depth: 5
 
-
+  pdf:
+    documentclass: scrreport
